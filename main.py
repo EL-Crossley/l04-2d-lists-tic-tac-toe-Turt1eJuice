@@ -9,6 +9,6 @@ def ticTacToe(board):
         return board[0][0]
     if board[0][2] == board[1][1] == board[2][0] and board[0][2] != "":
         return board[0][2]
-      
+    return tie
 board = [['X','O','O'],['O','X','O'],['X','O','X']]
 print(ticTacToe(board))
